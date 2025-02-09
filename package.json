@@ -15,6 +15,5 @@
     "parcel": "^2.13.3",
     "sharp": "^0.33.5"
   },
-  "main": "aos.js",
   "description": ""
 }

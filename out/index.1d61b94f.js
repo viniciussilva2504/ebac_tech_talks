@@ -1,0 +1,2 @@
+AOS.init();const e=new Date("Dec 12, 2025 19:00:00").getTime(),t=setInterval(function(){let n=e-new Date().getTime();if(n<0){clearInterval(t),document.getElementById("contador").innerHTML="O evento já ocorreu";return}let o=Math.floor(n/864e5),r=Math.floor(n%864e5/36e5),a=Math.floor(n%36e5/6e4),l=Math.floor(n%6e4/1e3);document.getElementById("contador").innerHTML=`${o}d ${r}h ${a}min ${l}s`},1e3);
+//# sourceMappingURL=index.1d61b94f.js.map
