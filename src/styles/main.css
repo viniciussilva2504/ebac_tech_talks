@@ -1,7 +1,7 @@
 .hero {
   padding-top: 64px;
   padding-bottom: 100px;
-  background-image: url(../images/fundo.png);
+  background-image: url(../images/abducaogeral.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -50,15 +50,18 @@
   padding: 16px 24px;
   background-color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
 }
 .infos-bar__infos {
   display: flex;
-  gap: 40px;
+  text-align: center;
+  gap: 40px; /* Espaçamento entre os itens */
 }
 .infos-bar__infos__item {
   font-size: 14px;
   color: #000;
+  text-align: center; /* Centraliza o texto */
 }
 .infos-bar__infos__item b {
   color: #000;
@@ -89,6 +92,7 @@
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
+  margin-left: 20px;
 }
 .button--primary {
   color: #fff;
@@ -103,7 +107,7 @@
 @media (max-width: 1024px) {
   .button {
     display: flex;
-    align-items: center;
+    align-items: center; /* Adicionado ponto e vírgula aqui */
   }
 }
 
